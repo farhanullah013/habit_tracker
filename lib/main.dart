@@ -5,7 +5,6 @@ import 'package:habit_tracker/presentation/blocs/habit/habit_bloc.dart';
 import 'package:habit_tracker/presentation/blocs/search/search_bloc.dart';
 import 'package:habit_tracker/presentation/viewmodels/habit_view_model.dart';
 import 'package:habit_tracker/presentation/viewmodels/search_view_model.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'injection_container.dart' as di;
 

@@ -2,9 +2,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart' as path_provider;
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
-
 import '../data/datasources/habit_local_data_source.dart';
 import '../data/models/habit_model.dart';
 import '../data/repositories/habit_repository_impl.dart';

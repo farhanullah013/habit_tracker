@@ -4,7 +4,6 @@ import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import '../../../domain/entities/habit_entity.dart';
 import '../../../domain/usecases/search_habits.dart';
-
 part 'search_event.dart';
 part 'search_state.dart';
 

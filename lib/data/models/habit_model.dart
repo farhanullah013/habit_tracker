@@ -32,8 +32,7 @@ class HabitModel {
     this.completedDate,
   });
 
-  // Remove all getters (hiveId, hiveDescription, etc.)
-  // as they're not needed anymore since we're using direct fields
+
 
   factory HabitModel.fromEntity(HabitEntity entity) => HabitModel(
     id: entity.id,
