@@ -49,17 +49,6 @@ class _HomePageContent extends StatelessWidget {
         ],
       ),
       body: _buildBody(viewModel),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: () {
-      //     Navigator.push(
-      //       context,
-      //       MaterialPageRoute(builder: (_) => const AddHabitPage()),
-      //     );
-      //     // Refresh after returning from AddHabitPage
-      //     context.read<HabitBloc>().add(LoadHabitsEvent());
-      //   },
-      //   child: const Icon(Icons.add),
-      // ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           final added = await Navigator.push<bool>(

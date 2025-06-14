@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import '../../domain/entities/habit_entity.dart';
 import '../viewmodels/search_view_model.dart';
 
 class SearchPage extends StatefulWidget {
